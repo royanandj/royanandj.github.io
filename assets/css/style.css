@@ -5,7 +5,7 @@ body {
 }
 
 #page-wraper {
-    background:linear-gradient(to top left,#00011C, black);
+    background: linear-gradient(to top left,#00011C, black);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
