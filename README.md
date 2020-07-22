@@ -1,1 +1,0 @@
-# royanandj.github.io
