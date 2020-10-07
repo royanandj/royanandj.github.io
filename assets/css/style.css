@@ -27,9 +27,22 @@ textarea {
 }
 
 a,
-a:hover {
-    text-decoration: none;
+a:link {
+  color: #DEE8FD;
+  background-color: transparent;
+  text-decoration: none;
 }
+a:hover {
+  color: #97B8FF;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: #6DFF8A;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 
 p {
     font-size: 16px;
@@ -317,8 +330,8 @@ html {
 .white-button a {
     display: inline-block;
     padding: 12px 20px;
-    background-color: #fff;
-    color: #00011C;
+    background-color: #00011C;
+    color: #fff;
     font-size: 13px;
     font-weight: 800;
     letter-spacing: 0.5px;
@@ -327,15 +340,15 @@ html {
 }
 
 .white-button a:hover {
-    background-color: #00011C;
-    color: #fff;
+    background-color:#fff ;
+    color: #00011C;
 }
 
 button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #fff;
-    color: #00011C;
+    background-color: #00011C;
+    color: #fff;
     font-size: 12px;
     font-weight: 800;
     letter-spacing: 0.5px;
@@ -348,8 +361,8 @@ button {
 
 button:hover {
     outline: none;
-    background-color: #00011C;
-    color: #fff;
+    background-color: #fff;
+    color: #00011C;
 }
 
 
